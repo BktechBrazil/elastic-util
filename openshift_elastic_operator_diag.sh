@@ -1,5 +1,5 @@
-APP_NS=cjf-elasticsearch
-ES_NAME=cjf-cluster-elastic
+APP_NS=customer-elasticsearch
+ES_NAME=customer-cluster-elastic
 OP_NS=openshift-operators
 OUT="eck-diag-$(date +%Y%m%d-%H%M%S)"
 mkdir -p "$OUT"
